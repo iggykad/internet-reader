@@ -1,1 +1,34 @@
+Pulled data still to be decided; ideas incl.:
+-> RYM/AOTY data
+-> hackernews posts
+
+
+
+                                                          login page
+
+------ username, password
+------ show password
+------ save details
+------ login
+
+
+
+                                                pull data from online (requests)
+
+DEFAULT BEHAVIOUR (no user-defined results)
+
+------ upon login, the 10 most recent posts (?) are displayed. The result includes (if found in entry):
+
+the title
+username of the poster
+date posted (DD/MM/YYYY) 
+beginning of description <- can be expanded
+
+
+------ hovering on a post, there should be an option to favourite/save/bookmark
+in terms of saving you can make specific folders for different posts
+
+
+
+
 
