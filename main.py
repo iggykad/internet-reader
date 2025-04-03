@@ -11,7 +11,6 @@ soup = BeautifulSoup(page.content, "html.parser")
 root = tk.Tk()
 root.title("Menu")
 root.minsize(640, 360)
-
 root.resizable(1280, 720)
 
 menuFrame = tk.Frame(root)
