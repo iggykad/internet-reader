@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 URL = "https://news.ycombinator.com"
 page = requests.get(URL)
 soup = BeautifulSoup(page.content, "html.parser")
-
+results = soup.find("tbody")
 
 root = tk.Tk()
 root.title("Menu")
@@ -69,7 +69,7 @@ def main_page():
         
 
     get_news = tk.Button(menuFrame, text="Get HackerNews posts", 
-                         command=lambda: text_widget.insert('end', page.text))
+                         command=lambda: text_widget.insert('end', page.content))
     get_news.pack()
 
 
